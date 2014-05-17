@@ -9,6 +9,7 @@
 	line-height: inherit;
 	color: inherit;
 }
+
 body {
 	font-family: 'SourceSansPro-Regular', 'source-sans-pro', 'MyriadPro-Regular', 'Helvetica Neue', sans-serif;
 	font-size: 14px;
@@ -20,25 +21,25 @@ body {
 	-webkit-text-size-adjust: 100%;
 	overflow: hidden;
 }
+
 a {
 	color: hsl(198, 49%, 46%);
 	text-decoration: none;
 }
-a:hover {
 
-}
 pre, code {
 	font-family: 'SourceCodePro-Regular', 'source-code-pro', monospace;
 }
+
 ul, ol, li {
 	list-style: none;
 }
-dl, dt, dd, li {
-}
+
 h1, h2, h3, h4, h5, h6 {
 	font-size: inherit;
 	font-weight: normal;
 }
+
 abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
@@ -51,6 +52,7 @@ input {
 	line-height: inherit;
 	border: none;
 }
+
 input[type=submit], button {
 	display: inline-block;
 	background: hsla(70, 100%, 30%, .7);
@@ -58,20 +60,18 @@ input[type=submit], button {
 	border-radius: 3px;
 	height: 1.6rem;
 	padding: 0rem .5rem;
+	&:active {
+		background: hsla(70, 100%, 30%, .7);
+	}
+	&:focus {
+		color: white;
+		background: hsla(70, 100%, 30%, .5);
+		box-shadow: 0px 0px 0px 1px hsla(70, 100%, 40%, 1);
+		outline: none;
+	}
 }
-input[type=submit]:active, button:active {
-	background: hsla(70, 100%, 30%, .7);
-}
-input:focus,
-button:focus {
-	color: white;
-	background: hsla(70, 100%, 30%, .5);
-	box-shadow: 0px 0px 0px 1px hsla(70, 100%, 40%, 1);
-	outline: none;
-}
-.btn-icon,
-.btn-icon:focus,
-.btn-icon:active {
+
+.btn-icon {
 	width: 44px;
 	height: 44px;
 	margin: 0;
@@ -80,9 +80,9 @@ button:focus {
 	box-shadow: none;
 	border-radius: 0;
 	border: none;
-}
-.btn-icon:focus {
-	box-shadow: 0px 0px 0px 1px hsla(70, 100%, 40%, .5);
+	&:focus{
+		box-shadow: 0px 0px 0px 1px hsla(70, 100%, 40%, .5);
+	}
 }
 
 /* Layout */
@@ -114,7 +114,7 @@ button:focus {
 }
 .title {
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 24px;
 	font-variant: small-caps;
 	padding: 0px 10px 20px 10px;
