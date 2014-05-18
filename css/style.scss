@@ -75,20 +75,6 @@ input[type="submit"], button {
 	}
 }
 
-.btn-icon {
-	width: 44px;
-	height: 44px;
-	margin: 0;
-	padding: 0;
-	background: none;
-	box-shadow: none;
-	border-radius: 0;
-	border: none;
-	&:focus{
-		box-shadow: 0px 0px 0px 1px hsla(70, 100%, 40%, .5);
-	}
-}
-
 /* Layout */
 
 .title {

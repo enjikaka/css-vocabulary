@@ -12,7 +12,7 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'rule-set',
-      'humanName': 'Regelgrupp',
+      'humanName': 'Regel',
       'url': ''
     },
     {
