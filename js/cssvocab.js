@@ -2,48 +2,48 @@ $(document).ready(function() {
   var vocab = [
     {
       'tokenName': 'comment',
-      'humanName': 'Comment',
+      'humanName': 'Kommentar',
       'url': ''
     },
     {
       'tokenName': 'statement',
-      'humanName': 'Statement',
+      'humanName': 'Del',
       'url': ''
     },
     {
       'tokenName': 'rule-set',
-      'humanName': 'Rule-set',
+      'humanName': 'Regelgrupp',
       'url': ''
     },
     {
       'tokenName': 'at-rule',
-      'humanName': 'At-rule',
+      'humanName': 'Specialregel',
       'url': ''
     },
     {
       'tokenName': 'media-query',
-      'humanName': 'Media query',
+      'humanName': 'Mediaquery',
       'url': ''
     },
     {
       'tokenName': 'media-query-list',
-      'humanName': 'Media query list',
+      'humanName': 'Villkor för mediaquery',
       'url': ''
     },
 
     {
       'tokenName': 'media-type',
-      'humanName': 'Media type',
+      'humanName': 'Mediatyp',
       'url': ''
     },
     {
       'tokenName': 'expression',
-      'humanName': 'Expression',
+      'humanName': 'Uttryck',
       'url': ''
     },
     {
       'tokenName': 'media-feature',
-      'humanName': 'Media feature',
+      'humanName': 'Medievärde',
       'url': ''
     },
     {
@@ -53,47 +53,47 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'declaration-block',
-      'humanName': 'Declaration block',
+      'humanName': 'Deklarationsblock',
       'url': ''
     },
     {
       'tokenName': 'selector',
-      'humanName': 'Selector',
+      'humanName': 'Selektor',
       'url': ''
     },
     {
       'tokenName': 'simple-selector',
-      'humanName': 'Simple selector',
+      'humanName': 'Enkel selektor',
       'url': ''
     },
     {
       'tokenName': 'type-selector',
-      'humanName': 'Type selector',
+      'humanName': 'Typselektor',
       'url': ''
     },
     {
       'tokenName': 'universal-selector',
-      'humanName': 'Universal selector',
+      'humanName': 'Universalselektor',
       'url': ''
     },
     {
       'tokenName': 'id-selector',
-      'humanName': 'ID selector',
+      'humanName': 'ID-selektor',
       'url': ''
     },
     {
       'tokenName': 'class-selector',
-      'humanName': 'Class selector',
+      'humanName': 'Klass-selektor',
       'url': ''
     },
     {
       'tokenName': 'attribute-selector',
-      'humanName': 'Attribute selector',
+      'humanName': 'Attributselektor',
       'url': ''
     },
     {
       'tokenName': 'pseudo-class',
-      'humanName': 'Pseudo-class',
+      'humanName': 'Pseudoklass',
       'url': ''
     },
     {
@@ -103,52 +103,52 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'combinator',
-      'humanName': 'Combinator',
+      'humanName': 'Kombinationsselektor...',
       'url': ''
     },
     {
       'tokenName': 'descendant-combinator',
-      'humanName': 'Descendant combinator',
+      'humanName': '...för alla underordnade element',
       'url': ''
     },
     {
       'tokenName': 'child-combinator',
-      'humanName': 'Child combinator',
+      'humanName': '...för direkt underordnat element',
       'url': ''
     },
     {
       'tokenName': 'adjacent-sibling-combinator',
-      'humanName': 'Adjacent sibling combinator',
+      'humanName': '...för första efterföljande syskonelement',
       'url': ''
     },
     {
       'tokenName': 'general-sibling-combinator',
-      'humanName': 'General sibling combinator',
+      'humanName': '...för alla följande syskonelement',
       'url': ''
     },
     {
       'tokenName': 'declaration',
-      'humanName': 'Declaration',
+      'humanName': 'Deklaration',
       'url': ''
     },
     {
       'tokenName': 'property',
-      'humanName': 'Property',
+      'humanName': 'Egenskap',
       'url': ''
     },
     {
       'tokenName': 'value',
-      'humanName': 'Value',
+      'humanName': 'Värde',
       'url': ''
     },
     {
       'tokenName': 'function',
-      'humanName': 'Function',
+      'humanName': 'Funktion',
       'url': ''
     },
     {
       'tokenName': 'keyword',
-      'humanName': 'Keyword',
+      'humanName': 'Nyckelord',
       'url': ''
     },
     /*{
@@ -158,7 +158,7 @@ $(document).ready(function() {
     },*/
     {
       'tokenName': 'string',
-      'humanName': 'String',
+      'humanName': 'Sträng',
       'url': ''
     },
     {
@@ -168,32 +168,32 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'number',
-      'humanName': 'Number',
+      'humanName': 'Nummer',
       'url': ''
     },
     {
       'tokenName': 'percentage',
-      'humanName': 'Percentage',
+      'humanName': 'Procentenhet',
       'url': ''
     },
     {
       'tokenName': 'length',
-      'humanName': 'Length',
+      'humanName': 'Längd',
       'url': ''
     },
     {
       'tokenName': 'unit',
-      'humanName': 'Unit',
+      'humanName': 'Enhet',
       'url': ''
     },
     {
       'tokenName': 'color',
-      'humanName': 'Color',
+      'humanName': 'Färg',
       'url': ''
     },
     {
       'tokenName': 'vendor-prefix',
-      'humanName': 'Vendor prefix',
+      'humanName': 'Webbläsarprefix',
       'url': ''
     },
   ];
